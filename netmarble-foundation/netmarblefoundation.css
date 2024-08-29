@@ -4,7 +4,7 @@
     margin : 0 auto;
 }
 body {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Noto Sans KR", sans-serif !important;
 }
 header{
     width: 100%;
@@ -12,7 +12,7 @@ header{
     position : fixed;
     color : white;
     z-index : 99999;
-    background-color: skyblue;
+    background-color: #FFD44A;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 

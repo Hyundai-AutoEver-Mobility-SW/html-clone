@@ -13,6 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- owl carousel 2 -->
     <link
       rel="stylesheet"
@@ -25,6 +33,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
       integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -79,7 +95,7 @@
     <!-- main -->
     <div class="main">
       <div class="main1 container">
-        <div class="text-wrap">
+        <div class="text-wrap wow fadeInUp">
           <div class="text1">
             문화를 만들고 인재를 키우고 <br />
             마음을 나눕니다
@@ -93,7 +109,7 @@
       </div>
       <div class="main2 container">
         <div class="card-container">
-          <div class="card">
+          <div class="cards wow fadeInUp" data-wow-delay="0.2s">
             <img src="./img/flex1.jpg" alt="" />
             <div class="card-text-wrap">
               <div class="card-img-text1">문화 만들기 ></div>
@@ -103,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="cards wow fadeInUp" data-wow-delay="0.4s">
             <img src="./img/flex1.jpg" alt="" />
             <div class="card-text-wrap">
               <div class="card-img-text1">문화 만들기 ></div>
@@ -113,7 +129,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
+          <div class="cards wow fadeInUp" data-wow-delay="0.6s">
             <img src="./img/flex1.jpg" alt="" />
             <div class="card-text-wrap">
               <div class="card-img-text1">문화 만들기 ></div>
@@ -172,6 +188,12 @@
     <footer></footer>
 
     <!-- script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -204,9 +226,18 @@
           margin: 0,
           autoplay: true,
           autoplayTimeout: 3000,
-          autoplayHoverPause: true, // 마우스 오버 시 자동 재생 일시 정지
+          autoplayHoverPause: true,
         });
       });
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
