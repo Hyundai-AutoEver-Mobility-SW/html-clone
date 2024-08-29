@@ -1,0 +1,254 @@
+
+.container{
+    width: 1280px;
+    margin : 0 auto;
+}
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+header{
+    width: 100%;
+    min-width: 1280px;
+    position : fixed;
+    color : white;
+    z-index : 99999;
+    background-color: skyblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menuWrap{
+    margin: 0 auto;
+    height: 76px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menuWrap .gnb{
+    height: 76px;
+}
+.menuWrap .gnb ul{
+    height: 100%;
+    display : flex;
+    gap : 100px;
+    justify-content: center;
+    align-items: center;
+}
+.menuWrap .gnb a{
+    width: 100%;
+    height: 100%;
+    font-size : 25px;
+    font-weight: 700;
+    color: white;
+    transition: 0.3s;
+}
+.menuWrap .gnb a:hover{
+    color : black;
+}
+/* banner */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-color: skyblue;
+    margin-bottom : 150px;
+}
+.banner .item{
+    height: 100vh;
+    /* max-width : 2560px; */
+    margin : 0 auto;
+    /* height: 100%; */
+    position: relative;
+}
+.banner .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner .item .banner-text{
+    position: absolute;
+    top: 50%;
+    /* ??? */
+    transform: translateY(-50%);
+    color: white;
+}
+.banner .item h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom : 10px;
+}
+.banner .item p{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.banner .item .banner-text:after{
+    content: "";
+    display: block;
+    width: 470px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+
+/* main1  */
+.main1{
+    height: 200px;
+    min-width: 1280px;
+    display : flex;
+    margin: 0 auto;
+    margin-bottom : 100px;
+}
+.main1 .text-wrap{
+    width: 100%;
+}
+.main1 .text1{
+    font-weight : bolder;
+    font-size : 44px;
+}
+.main1 .text1:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    margin-top: 10px;
+    background-color: #FFD44A;
+}
+.main1 .text2{
+    text-align: right;
+    font-size: 18px;
+}
+
+/* main2 */
+.main2{
+    margin : 0 auto;
+    height : 580px;
+    margin-bottom: 150px;
+}
+
+/* card */
+.card-container{
+    margin : 0 auto;
+    height: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 20px;
+}
+.card-container img{
+    transition : 0.3s;
+}
+.card-container img:hover{
+    transform: translate(-10px, -10px);
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.card-text-wrap{
+    width: 384px;
+    padding : 10px;
+}
+.card-img-text1{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom : 10px;
+}
+.card-img-text2{
+    font-size: 15px;
+}
+/* main3 */
+.main3{
+    height: 462px;
+    margin : 0 auto;
+    margin-bottom : 100px;
+}
+.main-3-wrap{
+    position: relative;
+    height: 100%;
+}
+.main-3-wrap .box{
+    width: 1114px;
+    height: 338px;
+    background-color: #FFD44A
+}
+.main-3-wrap .box-text-wrap{
+    position: relative;
+    padding: 100px;
+}
+
+.main-3-wrap .text1{
+    font-size: 28px;
+    font-weight: 600px;
+    margin-bottom : 10px;
+}
+.main-3-wrap img{
+    position: absolute;
+    right: 0;
+    bottom : -0;
+    z-index: 1;
+}
+
+.notice{
+    height: 965px;
+    background-color: #F7F8F9;
+}
+.notice-content{
+    margin : 0 auto;
+}
+.notice-title{
+    padding-top : 150px;
+    font-size: 44px;
+    font-weight: bold;
+}
+.notice-title:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #FFD44A;
+    margin-top: 10px;
+}
+.notice-category{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap : 10px;
+    margin-bottom : 50px
+}
+
+.notice-category button{
+    font-size: 15px;
+    background-color: #F0F1F2;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+    border : none;
+}
+.notice-category button:active{
+    background-color: #757575;
+    color: white;
+}
+.notice .item{
+    background-color: #fff;
+    height: 466px;
+}
+.notice .item img{
+    width: 100%;
+    height: 50%;
+}
+.notice .item .item-text-wrap{
+    padding: 20px;
+}
+.notice .item .item-text1{
+    font-size: 20px;
+    margin-bottom : 10px;
+}
+.notice .item .item-text2 {
+    font-size: 15px;
+    color: #757575;
+}
+
+
+
+footer{
+    height: 292px;
+    background-color: black;
+}
